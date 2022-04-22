@@ -7,6 +7,7 @@ const app = express()
 const port = process.env.PORT
 
 app.get('/', (req, res) => res.json({
+  version: '1.0.0',
   status: 'success',
   message: 'API Online'
 }))
