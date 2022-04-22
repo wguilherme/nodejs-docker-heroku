@@ -44,3 +44,11 @@ heroku container:release -a APP_NAME
 heroku open
 
 ```
+
+
+## Update and deploy
+```
+// how to deploy changes?
+
+
+```
