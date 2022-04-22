@@ -35,10 +35,10 @@ heroku container:login
 heroku create
 
 // build the image and push to Container Registry:
-heroku container:push -a APP_NAME
+heroku container:push web
 
 // release the image to your app:
-heroku container:release -a APP_NAME
+heroku container:release -web
 
 // open the app in your browser
 heroku open
@@ -49,6 +49,12 @@ heroku open
 ## Update and deploy
 ```
 // how to deploy changes?
+- don't need to build again
+
+just do it:
+// modify and commit your files
+
+// push and release your app with the same commands used before
 
 
 ```
